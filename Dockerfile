@@ -18,6 +18,6 @@
 # macOS: the default Docker for Mac configuration allows mounting files from /Users/, /Volumes/, /private/, and /tmp exclusively. Follow the instructions from the documentation to add more locations.
 #FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.3
 
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.4.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.5.2
 COPY config/elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
 VOLUME /usr/share/elasticsearch/data
